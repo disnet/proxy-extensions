@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Reactive saving example</title>
+</head>
+<script type="text/javascript" src="../../lib/coffee-script/loadVirt.js"></script>
+<script type="text/javascript" src="../../lib/coffee-script/loadContracts.js"></script>
+<script type="text/javascript">
+  loadVirt.patch();
+</script>
+
+<script type="text/javascript" src="../../lib/extensions/utils.js"></script>
+<script type="text/javascript" src="../../extensions/frp/flapjax-impl.js"></script>
+<script type="text/javascript" src="../../lib/extensions/frp-small.js"></script>
+
+<script type="text/javascript" src="reactive-save.js"></script>
+<body onload="run();">
+  <textarea name="editbox" id="edit" cols="30" rows="10"></textarea>
+  <br />
+  <input type="button" name="save" id="btnSave" value="save">
+</body>
+</html>

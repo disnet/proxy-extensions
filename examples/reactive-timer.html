@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Reactive timer example</title>
+</head>
+<script type="text/javascript" src="../../lib/coffee-script/loadVirt.js"></script>
+<script type="text/javascript" src="../../lib/coffee-script/loadContracts.js"></script>
+<script type="text/javascript">
+  loadVirt.patch();
+</script>
+
+<script type="text/javascript" src="../../lib/extensions/utils.js"></script>
+<script type="text/javascript" src="../../extensions/frp/flapjax-impl.js"></script>
+<script type="text/javascript" src="../../lib/extensions/frp-small.js"></script>
+
+<script type="text/javascript" src="reactive-timer.js"></script>
+<body onload="run();">
+  <p>
+    The timer is currently at: <span id="curTime"> </span>.
+  </p>
+  <input id="reset" type="button" value="Reset"></input>
+</body>
+</html>

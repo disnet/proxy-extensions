@@ -53,7 +53,7 @@ stream = (e) ->
 # need to wrap some specific flapjax functions that 
 # are called directly (ie not as methods on reactive or stream)
 root.timerB = wrap timerB
-root.timerE = wrap timerE
+# root.timerE = wrap timerE
 root.insertValueB = wrap insertValueB
 root.$E = wrap $E
 root.$B = wrap $B
